@@ -1,0 +1,139 @@
+.container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 24px;    
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+  }
+  
+  .logoContainer {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 384px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo semi-transparente para melhorar a legibilidade */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .logo {
+    size-adjust: medium;
+    height: 40px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  } 
+  
+  .formContainer {
+    margin-top: 40px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 384px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo semi-transparente para melhorar a legibilidade */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  
+  .label {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #1a1a1a;
+  }
+  
+  .inputContainer {
+    margin-top: 8px;
+  }
+  
+  .input {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1a1a1a;
+    background-color: white;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    outline: none;
+  }
+  
+  .input:focus {
+    border-color: #4f46e5;
+    box-shadow: 0 0 0 2px rgba(79, 70, 229, 0.5);
+  }
+  
+  .senhaHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .forgotPasswordLink {
+    font-size: 14px;
+    font-weight: 600;
+    color: #c72323;
+    text-decoration: none;
+  }
+  
+  .forgotPasswordLink:hover {
+    color: #ff1c1c;
+  }
+  
+  .button {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 12px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    color: white;
+    background-color: #677c2f;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #799431;
+  }
+  
+  .signupText {
+    margin-top: 40px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #6b7280;
+    text-align: center;
+  }
+  
+  .signupLink {
+    font-weight: 600;
+    color: #4f46e5;
+    text-decoration: none;
+  }
+  
+  .signupLink:hover {
+    color: #4338ca;
+  }
+
+  .error {
+    background-color: #fef2f2;
+    text-align: center;
+    border: solid 1px #f87171;
+    padding: 0.5rem;
+    border-radius: 0.375rem;
+    display: flex;    
+    gap: 0.5rem;
+  }
