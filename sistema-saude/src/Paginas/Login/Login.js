@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import style from "./Login.module.css";
 import axios from "axios";
+import saude from "../../assets/saude.png";
 
 const Login = () => {
     const navigate = useNavigate(); 
@@ -36,6 +37,8 @@ const Login = () => {
                 navigate("/Home");
             } else if (role === 2) {  // Se a role for 3 (Gestor)
                 navigate("/Usuarios");
+            } else if (role === 3) {  // Se a role for 3 (Gestor)
+                navigate("/Usuarios");
             } else {
                 setError("Categoria de usuário desconhecida.");
             }
@@ -49,7 +52,7 @@ const Login = () => {
     return (
         <div className={style.container}>
             <div className={style.logoContainer}>
-                {/* <img className={style.logo} src={ForegroundImage} alt="Itera360" />                 */}
+                <img className={style.logo} src={saude} alt="saude" />                
             </div>
 
             <div className={style.formContainer}>
